@@ -1,0 +1,13 @@
+###
+GET http://localhost:3001/api HTTP/1.1
+
+###
+POST http://localhost:3001/api HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Bots",
+    "description": "Bots inspired a restaurant owner in Ningbo, a seaport city in northeastern China's Zhejiang province to create a eatery filled with automated waiters.",
+    "address": "Ariana Grande 123",
+    "phone_number": "928-837-1833"
+}
